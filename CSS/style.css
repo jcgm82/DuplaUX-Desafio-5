@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,700&display=swap');
+
+/* reset */
+*{
+	font-family: 'Kufam', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+/*------------------Global---------------------*/
+
+h1,h2,h3,p{
+	font-family: 'Kufam', sans-serif;
+	color: #242426;
+}
+
+body{
+	background-color: whitesmoke;
+	overflow-x: hidden;
+}
+
+/*start nav*/
+
+nav{
+	background-color: white;
+	font-family: 'Kufam', sans-serif;
+	display: flex;
+	width: 100%;
+	padding: 0px 0px;
+}
+
+.nav-position{
+	justify-content: space-between;
+	position: sticky;
+ 	top: 0;
+  	width: 100%;
+
+}
+
+nav a{
+	padding-top: 5px;
+	padding-left: 50px;
+}
+
+nav ul{
+	list-style: none;
+	display: flex;
+	margin: 0px 50px 0px 0px;
+}
+
+nav ul li{
+	margin-right: 0px;
+	padding: 30px 0px 0px 0px;
+}
+
+
+nav	ul li a{
+	color: #242426;
+	text-decoration: none;
+}
+
+nav	ul li a:hover{
+	color: #0CBABA;
+	text-decoration: none;
+}
+
+
+
+
+/*Ends nav*/
+
+/*------------------ landing / index ---------------------*/
+
+/*stars header*/
+
+/*header{
+	width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+ .contenedor{
+	position: absolute;
+	top: 50%;
+	left: 100px;
+}*/
+/*ends header*/
+
+
+
+/*stars main*/
+
+/*main div .texto-banner{
+	background-image: linear-gradient(45deg, #380036, #0CBABA);
+	color: #E4EAEC;
+	padding-top: 600px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+}*/
+
+main .texto-banner{
+	background-image: linear-gradient(45deg, #380036, #0CBABA);
+	padding-top: 300px;
+	padding-bottom: 300px;
+	padding-left: 70px;
+}
+
+.banner__texto--color{
+	color: #E4EAEC;
+}
+
+.servicios{
+	background-color: #ffffff;
+	margin-bottom: 20px;
+	padding: 70px;
+}
+
+.espacio{
+	margin: 12px 0px;
+}
+
+#bloques-servicios{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+margin: 0px 40px;
+}
+
+
+/*main section #bloques-servicios, #branding, #uxdesign, #writing, #seo, #comman, #webdev, #translate, #copy{
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #E4EAEC;
+	width: 500px;
+	margin: 70px;
+	padding: 50px;
+}*/
+
+main section #branding, #uxdesign, #writing, #seo, #comman, #webdev, #translate, #copy{
+	background-color: #E4EAEC;
+	width: 350px;
+	margin top: 20px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 40px;
+	border-radius: 25px;
+	box-shadow: 2px 4px 4px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+#bloques-servicios div h3, p{
+	padding-bottom: 20px;
+
+}
+
+#bloques-servicios div button{
+	background-color: #0CBABA;
+	border: none;
+	color: whitesmoke;
+	font-size: 16px;
+	font-weight:800;
+	padding: 12px 32px 12px 32px;
+	justify-self: right;
+	float: right;
+	border-radius: 10px;
+}
+
+.clientes{
+	margin-right: 50px;
+}
+
+	#clientes{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 50px 40px;
+	padding: 0px 40px;
+	align-items: center;
+	}
+
+/*ends main*/
+
+/*form starts*/
+
+form div{
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	margin: 50px 25%;
+}
+
+form div label{
+	background-color: none;
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	border-style: none;
+	border-color: dimgray;
+	padding: 4px 0px;
+	margin: 2px 0px;
+}
+
+form div select, textarea{
+	background-color: white;
+	/*display: flex;
+	flex-direction: column;*/
+	border-style: none;
+	border-color: dimgray;
+	padding: 4px 0px;
+	margin: 2px 0px 4px 0px;
+}
+
+form div input{
+	background-color: white;
+	/*display: flex;
+	flex-direction: column;*/
+	border-style: none;
+	border-color: dimgray;
+	padding: 12px 4px;
+	margin: 2px 0px 4px 0px;
+}
+
+form div .button-form{
+	background-color: #0CBABA;
+	border: none;
+	color: whitesmoke;
+	font-size: 16px;
+	font-weight:800;
+	padding: 12px 32px 12px 32px;
+	/*justify-self: right;
+	float: center;*/
+	border-radius: 10px;
+	width: 25%;
+	margin: 16px 0px 0px 75%;
+}
+
+form div ul{
+	padding: 0px 0px;
+	margin-left: 0px;
+}
+
+form div ul li{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	/*margin: 0px 50px 0px 0px;*/
+	align-items: center;
+	
+}
+
+form div ul li input{
+	margin-right: 10px;
+}
+
+/*ends form*/
+
+
+/*footer starts*/
+
+footer h3{
+	margin: 20px 70px;
+}
+
+footer div a{
+	display: inline-block;
+	margin: 20px 0px 20px 70px;
+}
+
+#logo{
+	margin: 20px 0px 20px 50px;
+}
+
+footer ul li a{
+	list-style: none;
+	text-decoration: none;
+	margin: 0px 50px 0px 50px;
+	color: #242426;
+	
+}
+
+.pie{
+	text-align: center;
+}
+
+/*------------------Servicios---------------------*/
+
+/*página de servicios - header*/
+
+header .texto-banner{
+	background-image: linear-gradient(45deg, #380036, #0CBABA);
+	padding-top: 300px;
+	padding-bottom: 300px;
+	padding-left: 70px;
+}
+
+/*ends página de servicios - header*/
+
+/*------------------Portfolio---------------------*/
+
+	/*starts portfolio header*/
+
+	.portfolio{
+		/*display: inline-block;*/
+		display: flex;
+		flex-wrap: wrap;
+		padding: 20px 10px;
+		margin: 0px 20%;
+		align-items: center;
+		justify-content: safe center;
+	}
+
+	.portfolio button{
+		background-color: #0CBABA;
+		border: none;
+		color: whitesmoke;
+		font-size: 16px;
+		font-weight:600;
+		padding: 12px 32px 12px 32px;
+		border-radius: 10px;
+		margin: 10px 8px;
+	}
+
+	/*muestra portfolio*/
+
+main .muestras{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px 50px;
+	padding: 0px 40px;
+
+
+}
+
+	main .muestra-portfolio{
+	background-color: darkgray;
+	width: 600px;
+	height: 300px;
+	/*padding-bottom: 50px;*/
+	/*padding: 20px;*/
+	margin: 10px 40px;
+}
+.muestra__texto--color{
+	color: #E4EAEC;
+	padding-top: 250px;
+	padding-left: 20px;
+}
+
+/*------------------Nosotros---------------------*/
+
+.nosotros{
+	background-color: #ffffff;
+	margin-left: 20px;
+	/*margin-bottom: 20px;*/
+	padding: 20px 70px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.bloque-nosotros{
+	width: 400px;
+	margin: 20px;
+}
+
+/*.espacio-nosotros{
+	margin: 12px 0px;
+	float: right;
+}*/
+
